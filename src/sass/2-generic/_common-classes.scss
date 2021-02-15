@@ -1,0 +1,141 @@
+/*---------------------------
+		Accessiblity
+---------------------------*/
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    left: -999em;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal;
+
+    &:focus {
+        border-radius: $border-radius;
+        box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+        clip: auto;
+        clip-path: none;
+        display: block;
+        font-size: 1em;
+        height: auto;
+        left: 5px;
+        line-height: normal;
+        padding: 15px 23px 14px;
+        text-decoration: none;
+        top: 5px;
+        width: auto;
+        z-index: 100000;
+        /* Above WP toolbar. */
+    }
+}
+
+/*---------------------------
+		Alignments
+---------------------------*/
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.text {
+    &-left {
+        text-align: left;
+    }
+
+    &-right {
+        text-align: right;
+    }
+
+    &-center {
+        text-align: center;
+    }
+
+    &-justify {
+        text-align: justify;
+    }
+}
+
+/*---------------------------
+		Others
+---------------------------*/
+
+.hide {
+    display: none;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.g3-transition {
+    -webkit-transition: all .25s;
+    transition: all .25s;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+
+    >.col,
+    >[class*="col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.bg__white {
+    background-color: $white;
+}
+
+.h-100 {
+    height: 100%!important;
+}
+
+.mh-100 {
+    max-height: 100%!important;
+}
+
+.tracking-wide {
+    letter-spacing: 0.1em;
+}
+
+.line-heading {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    &:before {
+        content: '';
+        width: 2rem;
+        height: 3px;
+        margin: 0 0.75rem 0 0;
+        background: $yellow;
+    }
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-blue {
+    color: $blue-80;
+}
+
+.align-items-center {
+    align-items: center;
+}

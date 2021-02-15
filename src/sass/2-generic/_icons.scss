@@ -1,0 +1,41 @@
+.mi {
+    display: inline-block;
+    font: normal normal normal 14px/1 'Material-Icons';
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+.mi-call_made:after {
+    content: '\e0b2';
+}
+
+.mi-email:after {
+    content: '\e0be';
+}
+
+.mi-phone:after {
+    content: '\e0cd';
+}
+
+.mi-search:after {
+    content: '\e8b6';
+}
+
+.mi-chevron_left:after {
+    content: '\e5cb';
+}
+
+.mi-chevron_right:after {
+    content: '\e5cc';
+}
+
+.mi-close:after {
+    content: '\e5cd';
+}
+
+.mi-play_arrow:after {
+    content: '\e037';
+}

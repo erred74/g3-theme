@@ -1,0 +1,33 @@
+footer {
+    width: 100%;
+    min-height: 60px;
+    background-color: $dark;
+    padding: 30px 0;
+    font-size: 13px;
+
+    .footer__left {
+        color: $white;
+    }
+
+    .footer__right {
+        ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                margin: 0 12px;
+
+                a {
+                    color: $white;
+
+                    &:hover,
+                    &:active {
+                        color: $yellow;
+                    }
+                }
+            }
+        }
+    }
+}

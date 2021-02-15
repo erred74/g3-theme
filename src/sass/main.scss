@@ -1,9 +1,26 @@
 // Essentials.
 @import "essentials";
 
-html,
-body {
-    font-family: 'Quicksand';
-    font-size: 20px;
-    font-weight: 400;
-}
+// Bootstrap Grid.
+@import "4-layouts/bootstrap";
+
+// Generic
+@import "2-generic/generic";
+@import "2-generic/gutenberg";
+
+// Layouts.
+@import "4-layouts/posts/loop";
+@import "4-layouts/posts/meta";
+@import "4-layouts/posts/pagination";
+@import "4-layouts/header/nav/navigation";
+@import "4-layouts/footer/footer";
+@import "4-layouts/home/home";
+@import "4-layouts/pages/page";
+@import "4-layouts/woocommerce/woocommerce";
+@import "4-layouts/jumbotron";
+
+// Utilities
+//@import "3-utilities/juicy";
+@import "3-utilities/lity";
+
+// Components

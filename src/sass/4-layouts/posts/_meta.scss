@@ -1,0 +1,36 @@
+.g3-post .g3-post__content,
+.g3-post .g3-post__meta {
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    width: 100%;
+    background: #333333;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.g3-post .g3-post__content {
+    padding-top: 25px;
+}
+
+.g3-post .g3-post__meta {
+    padding-bottom: 25px;
+    padding-top: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: none;
+}
+
+.g3-post .g3-post__heading {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.g3-post .g3-post__meta a {
+    color: #ffffff;
+}
